@@ -4,6 +4,8 @@
 
 This package enable a cron job that saves a Meteor app Mongo database using `mongodump`.
 
+**Check that `mongodump` is actually installed on your server or install it!**
+
 See [Awesome Vulcan](https://www.awesome-vulcan.com) for usage examples.
 
 **/!\ This is an experimental package, API will certainly evolve in the months to come**.
