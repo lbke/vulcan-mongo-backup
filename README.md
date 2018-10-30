@@ -2,9 +2,13 @@
 
 ## Make your data safe
 
-This package enable a cron job that saves a Meteor app Mongo database using `mongodump`.
+This package enables a cron job that saves a Meteor app Mongo database using `mongodump`.
 
 **Check that `mongodump` is actually installed on your server or install it!**
+To do so, connect to your server through ssh (`ssh -i ./YourKey.pem ubuntu@XX.XX.XX.XX` for an EC2 instance) and run `mongodump` from there.
+
+Please consult this thread to install mongodump if necessary:
+[https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/](https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/)
 
 See [Awesome Vulcan](https://www.awesome-vulcan.com) for usage examples.
 
